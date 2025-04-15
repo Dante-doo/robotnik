@@ -1,14 +1,13 @@
+import { Carousel } from "../../components/Carousel";
+
 export function Home() {
-    console.log("Home page");
+
     return (
         <>
-            <main className="container">
-                <div className="row">
-                    <div className="col-12">
-                        <h1 className="text-center">teste</h1>
-                    </div>
-                </div>
-            </main>
+            <div className="container mt-4">
+
+                <Carousel />
+            </div>
         </>
     );
 }
